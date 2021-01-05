@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  image: nodejs-app:latest
+  ports:
+  - "9000:9981"
+  container_name: nodejs-app
